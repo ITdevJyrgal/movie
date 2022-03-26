@@ -4,6 +4,7 @@ import "./home.css"
 import axios from "axios";
 import {ApiKey} from "../ApiKey/ApiKey";
 import Homecarda from "./homecarda"
+
 export default function SimpleSlider() {
     const [popular, setPopular] = useState([])
     const [page, setPage] = useState(1)
@@ -45,31 +46,31 @@ export default function SimpleSlider() {
 
                 }
 
-                <div>
-                    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "
-                         src="https://thumbs.dfs.ivi.ru/storage4/contents/f/5/47a7349b0c60cc5bee1504697c1231.jpg/1216x370/"
-                         alt=""/>
-                </div>
-                <div>
-                    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "
-                         src="https://thumbs.dfs.ivi.ru/storage8/contents/3/b/f639384fc2f7602f29d4f7c199c0e5.jpg/1216x370/"
-                         alt=""/>
-                </div>
-                <div>
-                    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "
-                         src="https://thumbs.dfs.ivi.ru/storage4/contents/f/5/47a7349b0c60cc5bee1504697c1231.jpg/1216x370/"
-                         alt=""/>
-                </div>
-                <div>
-                    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "
-                         src="https://thumbs.dfs.ivi.ru/storage8/contents/3/b/f639384fc2f7602f29d4f7c199c0e5.jpg/1216x370/"
-                         alt=""/>
-                </div>
-                <div>
-                    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "
-                         src="https://thumbs.dfs.ivi.ru/storage4/contents/f/5/47a7349b0c60cc5bee1504697c1231.jpg/1216x370/"
-                         alt=""/>
-                </div>
+                {/*<div>*/}
+                {/*    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "*/}
+                {/*         src="https://thumbs.dfs.ivi.ru/storage4/contents/f/5/47a7349b0c60cc5bee1504697c1231.jpg/1216x370/"*/}
+                {/*         alt=""/>*/}
+                {/*</div>*/}
+                {/*<div>*/}
+                {/*    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "*/}
+                {/*         src="https://thumbs.dfs.ivi.ru/storage8/contents/3/b/f639384fc2f7602f29d4f7c199c0e5.jpg/1216x370/"*/}
+                {/*         alt=""/>*/}
+                {/*</div>*/}
+                {/*<div>*/}
+                {/*    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "*/}
+                {/*         src="https://thumbs.dfs.ivi.ru/storage4/contents/f/5/47a7349b0c60cc5bee1504697c1231.jpg/1216x370/"*/}
+                {/*         alt=""/>*/}
+                {/*</div>*/}
+                {/*<div>*/}
+                {/*    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "*/}
+                {/*         src="https://thumbs.dfs.ivi.ru/storage8/contents/3/b/f639384fc2f7602f29d4f7c199c0e5.jpg/1216x370/"*/}
+                {/*         alt=""/>*/}
+                {/*</div>*/}
+                {/*<div>*/}
+                {/*    <img className="my-16 ml-24 border-4 outline-none p-3 rounded-lg "*/}
+                {/*         src="https://thumbs.dfs.ivi.ru/storage4/contents/f/5/47a7349b0c60cc5bee1504697c1231.jpg/1216x370/"*/}
+                {/*         alt=""/>*/}
+                {/*</div>*/}
             </Slider>
 
 
