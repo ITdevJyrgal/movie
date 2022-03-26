@@ -7,6 +7,7 @@
     <list default="true" id="bd70e6a9-cf1e-4c02-88dd-eb5f591db18e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/companents/searchResult/SearchResult.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/companents/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/companents/header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/companents/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/companents/home/home.js" afterDir="false" />
@@ -72,7 +73,7 @@
       <workItem from="1644116980473" duration="5302000" />
       <workItem from="1644137027343" duration="2477000" />
       <workItem from="1645278991645" duration="29000" />
-      <workItem from="1648285731838" duration="1674000" />
+      <workItem from="1648285731838" duration="1995000" />
     </task>
     <servers />
   </component>
@@ -95,7 +96,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/companents/home/home.js</url>
-          <line>67</line>
+          <line>68</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
